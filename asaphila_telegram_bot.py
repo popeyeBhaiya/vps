@@ -39,7 +39,7 @@ from telegram.ext import (
 from asaphila_checker import CardDetails, AsaphilaChecker
 
 
-BOT_TOKEN = os.environ.get("ASAPHILA_BOT_TOKEN") or os.environ.get("BOT_TOKEN")
+BOT_TOKEN = "7239072566:AAFAdvcpZ_yZgWKOsDIN5rZGJpp5SLGEfGI"
 if not BOT_TOKEN:
     raise SystemExit("Set ASAPHILA_BOT_TOKEN or BOT_TOKEN in env (or .env)")
 
@@ -217,3 +217,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
